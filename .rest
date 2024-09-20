@@ -1,0 +1,20 @@
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "ache",
+    "password": "1234"
+}
+###
+GET http://localhost:5000/CurrentUser
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmViNzZkMDg4ZjFlMmNmMmQyN2FjZjgiLCJpYXQiOjE3MjY3MDg2NTYsImV4cCI6MTcyNjcxMjI1Nn0.nOwAuzTKoSdy0fwgu4osXh-qMnLOxyU2hsF3EJ06JhA
+
+###
+POST  http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "username": "ache",
+    "password": "1234"
+}
+###
